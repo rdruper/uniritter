@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="CalculatorTest (Failed Tests first)" project="HelloWorld" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="CalculatorTest" time="0.0">
+    <testcase name="testSubtract" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testAdd" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testMultiply" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testDivide" classname="CalculatorTest" time="0.0"/>
+    <testcase name="testFatorial" classname="CalculatorTest" time="0.0"/>
+  </testsuite>
+</testrun>
