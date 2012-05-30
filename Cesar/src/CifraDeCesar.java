@@ -17,7 +17,10 @@ public class CifraDeCesar {
 		int i = 0;	
 		
 		for (char c : texto.toCharArray()) {			
-			if (c != ' ') c = (char)(c + deslocamento);
+			if (c != ' ') {
+				if (c == 'z') c = (char)('a' + deslocamento-1);
+				else c = (char)(c + deslocamento);
+			}
 		 	encriptado[i] = c;
 		 	i++;					
 		}
